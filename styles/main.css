@@ -1,0 +1,260 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+
+}
+body{
+	background: #eeeeee;
+}
+h1,h2,h3,h4,h5,h6{
+	margin-bottom: 20px;
+}
+.tm-container{
+	max-width: 1350px;
+	margin: auto;
+}
+.tm-header{
+	background-color: #fff;
+	/*background-image: url('/images/header.jpg');*/
+	border-color: #fff;
+}
+.tm-header::after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+.tm-logo{
+	float: left;
+}
+.tm-nav{
+	float: right; 
+}
+.tm-nav ul li{
+	display: inline-block;
+}
+.tm-nav ul li a{
+	text-decoration: none;
+	padding: 10px 20px;
+	color: #363636;
+	line-height: 50px;
+}
+.tm-nav ul li a:hover{
+	color: rgb(38, 211, 194);
+}
+.tm-section1{
+	
+	background-image: url('../images/RockyMountain.jpg');
+	background-position: center;
+}
+.tm-section1 h1{
+	padding-top: 200px;
+	padding-bottom: 2px;
+	text-align: center;
+	font-size: 70px;
+	font-weight: 300;
+	color: #fff;
+}
+.tm-section1 p{
+	position: relative;
+	padding-bottom: 297px;
+	text-align: center;
+	font-size: 16px;
+	color: rgba(255,255,255,.7);
+	font-weight: 300;
+}
+.round-corner{
+ 	position: relative;
+	top: -223px;
+	left: 577px;
+	border-radius: 20px;
+	border: 2px solid white;
+	color: white;
+	background-color: rgb(38, 211, 194);
+	padding: 10px 10px 7px 10px;
+	text-align: center;
+	width: 128px;
+	height: 32px
+}
+.round-corner span:hover{
+	color: #0d776d;
+}
+.tm-idea{
+	padding-top: 50px;
+	padding-left: 627px;
+	
+
+}
+
+.tm-section2{
+	background-color: rgba(156, 229, 11,.8);
+}
+.tm-section2 h2{
+	color: rgba(255, 255, 255,1);
+	font-size: 33px;
+	font-weight: 300;
+	text-align: center;
+	padding-top: 10px;
+}
+.tm-section2 p{
+	color: rgba(255, 255, 255,1);
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 300;
+	text-align: center;
+	padding-bottom: 96px;
+}
+.tm-section3 h1 p{
+	line-height: 255px;
+}
+
+.tm-section3{
+	background-color: #80c4e5;
+	height: 333px;
+}
+.tm-section3-head {
+	position: relative;
+	top: 46px;
+	left: -215px;
+	float: right;
+	padding-right: 100px;
+	color: #fff;
+	font-size: 32px;
+
+}
+.tm-section3-parra {
+	position: relative;
+	top: 120px;
+	float: right;
+	left: 179px;
+	font-size: 18px;
+	color: #fff;
+}
+
+.tm-bossimage {
+	 float: left;
+    position: relative;
+    top: 40px;
+    left: 10px;
+    border-radius: 49px;
+}
+.tm-section3::after{
+	content: " ";
+	clear: both;
+	display: block;
+}
+.tm-section4 h1 p{
+	line-height: 280.85px;
+}
+.tm-section4{
+	background-color: #e87540;
+}
+.tm-section4-head {
+	position: relative;
+	top: 45px;
+	left: -164px;
+	float: left;
+	padding-left: 275px;
+	color: #fff;
+	font-size: 32px;
+
+}
+.tm-section4-parra {
+	position: relative;
+	top: 120px;
+	float: left;
+	right: 472px;
+	font-size: 18px;
+	color: #fff;
+}
+
+.tm-promote {
+	 float: right;
+    position: relative;
+    top: -41px;
+    left: -11px;
+    border-radius: 49px;
+}
+.tm-section4::after{
+	content: " ";
+	clear: both;
+	display: block;
+}
+.tm-section5{
+	background-color: #b354d8;
+	height: 333px;
+}
+.tm-section5-head {
+	position: relative;
+	top: 46px;
+	left: -240px;
+	float: right;
+	padding-right: 100px;
+	color: #fff;
+	font-size: 32px;
+
+}
+.tm-section5-parra {
+	position: relative;
+	top: 120px;
+	float: right;
+	left: 179px;
+	font-size: 18px;
+	color: #fff;
+}
+
+.tm-explore {
+	 float: left;
+    position: relative;
+    top: 40px;
+    left: 10px;
+    border-radius: 49px;
+}
+.tm-section5::after{
+	content: " ";
+	clear: both;
+	display: block;
+}
+.tm-section6{
+background-color:#9e0965;	
+}
+.tm-create-image{
+	position: relative;
+}
+.tm-sell-image{
+	position: relative;
+	left: 3.84px
+}
+
+.tm-buy-image{
+	float: right;
+}
+.tm-marketing{
+	text-align: center;
+	background-color: #e27cbb;
+}
+.tm-marketing ul li{
+	display: inline-block;
+}
+.tm-marketing ul li a{
+text-decoration: none;
+font-size: 20px;
+padding: 20px 190px;
+color: #fff;
+}
+.tm-marketing ul li a:hover{
+color: #9e0965;
+}
+
+.tm-footer{
+	background: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+.clearfix::after{
+	content:" ";
+	display: block;
+	clear: both;
+	visibility: none;
+}
