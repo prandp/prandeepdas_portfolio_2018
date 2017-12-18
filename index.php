@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to Prandeep's Portfolio</title>
+	<meta charset="utf-8">
+	<!-- custom CSS file -->
+	
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+	<!-- UiKt file- -->
+	
+	<!-- Bootstrap and Custom CSS  file -->
+	<link rel="stylesheet" href="/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="/css/custom.css">
+	<!-- Optional theme -->
+	
+	<!-- transition and animation -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	
+
+	<script>
+		
+// Four images side by side
+
+// Two images side by side
+function two() {
+    var elements = document.getElementsByClassName("column");
+    var i;
+    for (i = 0; i < elements.length; i++) {
+        elements[i].style.width = "50%";
+    }
+}
+
+// Full-width images
+function one() {
+    var elements = document.getElementsByClassName("column");
+    var i;
+    for (i = 0; i < elements.length; i++) {
+        elements[i].style.width = "100%";
+    }
+}
+</script>
+	
+</head>
+<body>
+<!-- ************************************ HEADER **************************************** -->	
+<header class="p-header">
+	<nav class="navbar navbar-default navbar-fixed-top">
+	<img class="p-logo" src="/images/pd.png" width="30">
+  <div class="container-fluid clearfix">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#p-navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="#">prandp</a>
+	</div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="p-navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">about</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">portfolio <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          	  <li><a href="#p-portfolio-web">artroomworld</a></li>
+              <li><a href="#p-portfolio-web2">portfolio</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#"><a>illustrations</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#"><a>designs</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#"><a>artworks</a></li>
+          </ul>
+        </li>
+      </ul>
+      <!--<form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="">
+        </div>
+        <button type="submit" class="btn btn-default">search</button>
+      </form>-->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">contact</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">follow me <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>  
+</header>
+<div class="p-all-sections container-fluid clearfix">
+	<section class="p-section1 container-fluid">
+		<div class="p-scroll">
+			<div class="p-down"></div>
+		</div>
+<!-- ********************************************************carousel starts here ************************************************** -->		
+		<div class="carousel slide" id="p-carousel" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li class="active" data-target="#p-carousel" data-slide-to="0"></li>
+				<li data-target="#p-carousel" data-slide-to="1"></li>
+				<li data-target="#p-carousel" data-slide-to="2"></li>
+			</ol>
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="images/mountains.png" alt="active slide image" >
+						<div class="carousel-caption">
+						 	
+						 		<h1>Prandeep das</h1>
+						 		<h3 class="p-typedit"><span class="p-typed-cursour">| </span>UI Developer Designer and an Artist<span class="p-typed-cursour"> |</span></h3>
+						 	
+							 <!--<button class="p-button1" href="/downloads/batman-page101.png" role="download" download><i class="fa fa-download" aria-hidden="true"></i> download resume</button>-->
+							 <!--<a class="p-button1" href="/downloads/batman-page101.png" download="/downloads/batman-page101.png"> download</a>-->
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/red.png" alt="active slide image" >
+						<div class="carousel-caption">
+						 	<h1>Some text</h1>
+							<p class="p-somelines text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/snow.png" alt="active slide image" >
+						<div class="carousel-caption">
+						 	<h1>Some text</h1>
+							<p class="p-somelines text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+						</div>
+					</div>
+				</div>
+		
+			<a class="left carousel-control" href="#p-carousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>
+			<a class="right carousel-control" href="#p-carousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+		</div>
+			
+		
+		<!--<div class="row p-section1-content">
+			<div class="col-sm-12">
+				<h1>prandeep das</h1>
+				<div class="p-section1-subtitle">
+			        <ul>
+			          <li><a href="">developer</a> </li>
+			          <li><a href="">designer</a></li>
+			          <li><a href="">artist</a></li>
+			        </ul>
+			    </div>
+			</div>
+		</div>-->
+	</section>
+	<section class="row p-section2">
+		<div class="col-sm-6  p-section2-content-img">
+			<img src="/images/profile-sample.jpeg"  alt="my image">
+				<!--<div class="p-section2-content-img"></div>-->
+		</div>
+		<div class="col-sm-6 p-section2-content">
+			<h2 id="p-portfolio-web" class="wow slideInRight">my portfolio</h2>
+			<h3 class="wow slideInRight">websites</h3>
+			<div class="p-container wow slideInRight">
+				<img class="p-website-1"" src="images/page200T.jpg" alt="artroomworld" style="width: 100%" >
+				<div class="p-middle">
+					<div  class="p-text"><a href="https://prandp.github.io/">artroomworld</a> </div>
+				</div>
+			</div>
+			<div class="p-container wow slideInRight">
+				<img id="p-portfolio-web2" src="images/page103.jpg" alt="myportfolio" class="p-website-2" style="width: 100%">
+				<div class="p-middle">
+					<div class="p-text2"><a href="#">myportfolio</a></div>
+				</div>
+			</div>
+			<div class="p-illusstration wow slideInRight">
+				<h3>illustrations</h3>
+				 <p>Click on the buttons to change the grid view.</p>
+				<button onclick="two()">2</button>
+  				<button onclick="one()">1</button>
+			</div>
+			<div class="row wow slideInRight">
+				<a href="illustration.php">
+					<div class="column">
+					<img class="raise" src="images/illustration4.jpg" alt="illustration images" style="width: 100%">
+					<img src="images/illustration5.jpg" alt="illustration images" style="width: 100%">
+				</div>
+				<div class="column">
+					<img src="images/illustration1.jpg" alt="illustration images" style="width: 100%">
+					<img src="images/illustration2.jpg" alt="illustration images" style="width: 100%">
+					<img src="images/illustration3.jpg" alt="illustration images" style="width: 100%">
+				</div>	
+			</div>
+				</a>
+			<a href="illustration.php" class="p-seemore">See More</a>	
+							
+			
+
+
+			<h3>designs </h3>
+			
+			<h3>artworks</h3>
+			<div class="p-aboutme text-justify">
+				<h2>about me</h2>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>&Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			
+
+			<div class="p-myskills">
+	        	<h2>my skills</h2>
+	        	<p>web development</p>
+	        		<div class="p-container-skills ">
+	          			<div class="p-skills p-devskill">55%</div>
+	        		</div>
+	        	<p>design</p>
+	       			 <div class="p-container-skills">
+	          			<div class="p-skills p-desskill">45%</div>
+	        		</div>
+	        	<p>artwork</p>
+	        		<div class="p-container-skills">
+	         			 <div class="p-skills p-artskill">50%</div>
+	        		</div>
+	        </div>
+
+	        <div class="p-resume">
+	        	<div class="p-resume-inner">
+	        		<p><a href="images/page404i.png"><span></span> download resume</a></p>
+	        	</div>
+	        	
+	        </div>
+	        <div class="p-reference">
+	        	<h3>my references</h3>
+
+	        	<div class="p-container-ref">
+	        		<img src="images/reference2.jpg" alt="avatar" width="100px">
+	        		<p><span>Porismita Goswami</span> web developer, xyz design</p>
+	        		<p>He is the best</p>
+	        	</div>
+
+	        	<div class="p-container-ref">
+	        		<img src="images/reference1.jpg" alt="avatar" width="100px">
+	        		<p><span>Rohan Goswami</span> CCO,Y-center</p>
+	        		<p>delivers best </p>
+	        	</div>
+
+	        	<div class="p-container-ref">
+	        		<img src="images/reference3.jpg" alt="avatar" width="100px">
+	        		<p><span>Taku</span> CEO,Taku Designs</p>
+	        		<p>Extraordinary Creativity </p>
+	        	</div>
+
+	        	<div class="p-container-ref">
+	        		<img src="images/reference2.jpg" alt="avatar" width="100px">
+	        		<p><span>Nikita Dasgupta</span> NikArts</p>
+	        		<p>He can do anything </p>
+	        	</div>
+			</div>
+
+			<div class="p-contactme">
+				<h2>contact me</h2>
+				<p><span></span> +91 97392 77 297</p>
+				<p><span></span> prandeep.das9@gmail.com</p>
+				<form action="" method="">
+					<p>
+						<input type="text" name="name" placeholder="name">
+					
+					</p>
+					<p>
+						<input type="text" name="emailid" placeholder="@email id">
+					
+					</p>
+					<p>
+						<input type="phonenumber" name="phonnumber" placeholder="phone number">
+					
+					</p>
+					<p>
+						<input type="text" name="message" placeholder="message">
+					
+					</p>
+					<button class="btn btn-primary"><span></span> send</button>
+					
+				</form>
+			</div>
+
+
+		</div>
+
+	</section>
+</div>
+
+<footer class="p-footer">
+	&copy;prandeep das portfolio 2017
+</footer>
+
+
+	
+			
+				
+			
+<!-- ******************************************* restricted area ******************************************************* -->	
+	<script src="js/jquery.min.js" src="text/javascript"></script>
+	<script type="text/javascript" src="/uikit/js/uikit.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/typed.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="/js/script.js"></script>
+	<!--<script type="text/javascript">
+			$(function(){
+			$(".typeme").typed({
+				strings: [
+				"UI developer",
+				"Designer",
+				"and Artist"],
+			typeSpeed: 70,
+			backDelay: 200,
+			loop: true
+			})
+		})
+	</script>-->
+</body>
+</html>
