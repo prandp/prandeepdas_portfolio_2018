@@ -3,6 +3,7 @@
 <head>
 	<title>Welcome to Prandeep's Portfolio</title>
 	<meta charset="utf-8">
+	<!-- custom CSS file -->
 	
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,700" rel="stylesheet">
@@ -86,7 +87,7 @@ function one() {
       </ul>
       <!--<form class="navbar-form navbar-left">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="">
+          <input type="text" class="form-control" placeholder="?">
         </div>
         <button type="submit" class="btn btn-default">search</button>
       </form>-->
@@ -95,9 +96,9 @@ function one() {
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">follow me <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
+            <li><a href="#">?</a></li>
+            <li><a href="#">?</a></li>
+            <li><a href="#">?</a></li>
           </ul>
         </li>
       </ul>
@@ -249,7 +250,7 @@ function one() {
 
 	        <div class="p-resume">
 	        	<div class="p-resume-inner">
-	        		<p><a href="images/page404i.png"><span></span> download resume</a></p>
+	        		<p><a href="images/page404i.png"><span>?</span> download resume</a></p>
 	        	</div>
 	        	
 	        </div>
@@ -283,8 +284,8 @@ function one() {
 
 			<div class="p-contactme">
 				<h2>contact me</h2>
-				<p><span></span> +91 97392 77 297</p>
-				<p><span></span> prandeep.das9@gmail.com</p>
+				<p><span>?</span> +91 97392 77 297</p>
+				<p><span>?</span> prandeep.das9@gmail.com</p>
 				<form action="" method="">
 					<p>
 						<input type="text" name="name" placeholder="name">
@@ -302,7 +303,7 @@ function one() {
 						<input type="text" name="message" placeholder="message">
 					
 					</p>
-					<button class="btn btn-primary"><span></span> send</button>
+					<button class="btn btn-primary"><span>?</span> send</button>
 					
 				</form>
 			</div>
@@ -314,7 +315,7 @@ function one() {
 </div>
 
 <footer class="p-footer">
-	&copy; <span class="far fa-copyright"></span> prandeep das portfolio 2017
+	&copy;prandeep das portfolio 2017
 </footer>
 
 
@@ -330,5 +331,18 @@ function one() {
 	<script src="/js/script.js"></script>
 	<script src="/js/navshrink.js"></script>
 
+	<!--<script type="text/javascript">
+			$(function(){
+			$(".typeme").typed({
+				strings: [
+				"UI developer",
+				"Designer",
+				"and Artist"],
+			typeSpeed: 70,
+			backDelay: 200,
+			loop: true
+			})
+		})
+	</script>-->
 </body>
 </html>
