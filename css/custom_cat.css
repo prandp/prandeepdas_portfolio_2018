@@ -1,0 +1,182 @@
+*{
+	
+  box-sizing: border-box;
+
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+	/*background: radial-gradient(circle, #323538, #1a1b1c, #000000);*/
+	background: #f1f1f1;
+	width: 100%;
+	height: 100%;
+
+	/*background-image: url('/images/texture.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: repeat;
+	background-size: cover;*/
+	background-blend-mode: screen;
+	opacity: .9;
+	}
+header{
+	padding: 100px 0 150px 0;	
+	}
+section{
+	padding: 30px 0 55px 0;
+	}
+h1{
+	font-family: 'Bree Serif', serif;
+	font-weight: 700;
+	font-size: 46px;
+	line-height: 51px;
+	text-transform: uppercase;
+	margin: 0 0 23px 0;
+	color: #2D3047;
+
+}
+h2{
+	font-family: 'Bree Serif', serif;
+	font-weight: 400;
+	font-size: 22px;
+	color:  #2D3047;
+	line-height: 23px;
+	text-transform: uppercase;
+	margin: 0 0 23px 0;
+}
+h4{
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 400;
+	color:  #2D3047;
+	margin: 0 0 10px 0;
+	
+}
+p{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 28px;
+	font-weight: 300;
+	color: #2D3047;
+	margin: 0 0 23px 0;
+	padding-bottom: 20px;
+}
+input{
+	font-family: 'Lato', sans-serif;	
+}
+textarea{
+	color: #fafafa;	
+}
+img{
+	margin-left: auto;
+	margin-right: auto;
+}
+/*********************************************************slide-nav****************************************************/
+.p2-menu {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.p2-menu a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.p2-menu a:hover, .p2-menu a:focus {
+    color: #f1f1f1;
+}
+
+.p2-menu .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .p2-menu a {font-size: 20px}
+  .p2-menu .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+/*********************************************** Cake catagory page *******************************/
+/*********************************************** tablink/tabcontent *******************************/
+.tablink{
+	background:#555;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 20px 20px;
+	float: left;
+	border:none;
+	outline: none;
+	font-size: 17px;
+	cursor: pointer;
+	margin-top: 28px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	width: 33.33%;
+	transition: .4s all;
+}
+.tablink:hover {
+	background:#777;
+}
+.tabcontent{
+	margin-top: 60px;
+	display: none;
+	height: 100%;
+	padding: 45px 16px 14px 16px;
+}
+
+#Birthday{background-color: #ed71b7;}
+#Wedding{background-color: #58b6d8;}
+#Custom{background-color: orange;}
+
+.row > .column{
+	width: 25%;
+	float: left;
+	padding: 5px 5px;
+}
+.column img{
+	border-radius: 5px;
+}
+.column
+@media screen and (max-width: 768px) {
+  .row > .column  {width: 50%;}
+  }
+}
+/*********************************************** Bootstrap > Laptop *******************************/
+
+/*********************************************** navbar brand *************************************/
+.navbar-default{
+	background-image: none;
+	background: rgba(242,242,242,0);
+	border-color: transparent;
+}
+.navbar-default .navbar-nav > li > a{
+	color: #330C2F;
+} 

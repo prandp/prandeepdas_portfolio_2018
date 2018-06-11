@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to Prandeep's Portfolio</title>
+	<meta charset="utf-8">
+	
+	<!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,400i|Oswald:400,700" rel="stylesheet"> 
+	<!-- UiKt file- -->
+	
+	<!-- Bootstrap and Custom CSS  file -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+	<!-- Optional theme -->
+	
+	<!-- transition and animation -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img  src="images/pd_logo_light.png" width="100px"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html" style="">HOME</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SOCIAL <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+           <!-- <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>-->
+            <li><a href="#"><span class="fa fa-facebook-official" style="color: blue;"></span></a>
+              <a><span class="fa fa-instagram" style="color: #f704db;"> </span></a>
+              <a><span class="fa fa-youtube-play" style="color: red;"> </span></a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<section id="portfolio" class="clearfix">
+  <div class="container">
+     <div class="isonav">
+            <ul>
+                <li class="active" data-name="*">All</li>
+                <li data-name=".logo">LOGO</li>
+                <li data-name=".temp">TEMPLATE</li>
+                <li data-name=".art">ARTWORK</li>
+            </ul>
+      </div>
+      <div class="mainiso">
+        <div class="item logo"><a href="images/show-all/Logo-1.jpg"><img src="images/show-all/Logo-1.jpg" width="250px" alt="baking logo"></a></div>
+        <div class="item logo"><a href="images/show-all/HlLOGO.png"><img src="images/show-all/HlLOGO.png" width="250px" alt="hardlines logo"></a></div>
+        <div class="item logo"><a href="images/show-all/ARoW.png"><img src="images/show-all/ARoW.png" width="250px" alt="artroom logo"></a></div>
+        <div class="item logo"><a href="images/show-all/Artrw.png"><img src="images/show-all/Artrw.png" width="250px" alt="artroom logo 2"></a></div>
+        <div class="item art"><a href="images/show-all/artwork-2.jpg"><img src="images/show-all/artwork-2.jpg" width="250px" alt="night king"></a></div>
+        <div class="item art"><a href="images/show-all/artwork-3.jpg"><img src="images/show-all/artwork-3.jpg" width="250px" alt="marlyn monroe"></a></div>
+        <div class="item temp"><a href="images/show-all/design-3.jpg"><img src="images/show-all/design-3.jpg" width="250px" alt="catpost"></a></div>
+        <div class="item temp"><a href="images/show-all/design-1.png"><img src="images/show-all/design-1.png" width="250px" alt="baking website"></a></div>
+        
+      </div>
+  </div>
+ </section>
+
+
+
+
+<!-- ******************************************* restricted area ******************************************************* -->	
+	<script src="js/jquery.min.js" src="text/javascript"></script>
+	<script type="text/javascript" src="/uikit/js/uikit.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+	<script src="js/typed.js"></script>
+	<script src="js/wow.min.js"></script>
+	
+	<script src="/js/navshrink.js"></script>
+  <script src="/js/isotope.pkgd.min.js"></script>
+  <script src="/js/script.js"></script>
+ 
+  </script>
+  <!-- jquery plugin tutorial - filter and sorting using isotope jquery plugin/polodev-->
+ <script type="text/javascript">
+
+ var $mainiso = $('.mainiso').isotope({
+      itemSelector: '.item',
+     
+  });
+ 
+$('.isonav ul li').on("click",function(){
+  var value = $(this).attr('data-name');
+     $mainiso.isotope({
+     filter: value
+ });
+});
+ /* $('.isonav ul li').removeClass('active');
+  $(this).addClass('active');
+
+  var selector = $(this).attr('data-name');
+  $('mainiso').isotope({
+    filter: selector;
+  });
+  return flase;
+});*/
+  </script>
+	
+</body>
+</html>
